@@ -1,13 +1,14 @@
-import { useState } from 'react'
-
+import Weather from "./Components/Weather";
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      <h3 className='text-2xl text-red-500 text-center'>Weather Application</h3>
+      <h3 className="text-2xl text-red-500 text-center">Weather Application</h3>
+      <div>
+      <Weather/>
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
