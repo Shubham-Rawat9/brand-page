@@ -1,12 +1,14 @@
-import Weather from "./Components/Weather";
+import Navbar from "./Components/Navbar/navbar";
+import Hero from "./Components/Hero/hero";
 function App() {
 
   return (
     <>
-      <h3 className="text-2xl text-red-500 text-center">Weather Application</h3>
-      <div>
-      <Weather/>
+      <div className="container">
+       <Navbar/>
+      <Hero/>
       </div>
+
     </>
   );
 }
